@@ -6,10 +6,10 @@
 
   --hue: 0;
   --saturation: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --title-color: hsl(var(--hue), var(--saturation), 20%);
+  --title-color-dark: hsl(var(--hue), var(--saturation), 0%);
+  --text-color: hsl(var(--hue), var(--saturation), 46%);
+  --body-color: hsl(var(--hue), var(--saturation), 98%);
   --container-color: #fff;
 
   --main-font: font-family: 'Poppins', sans-serif;
@@ -159,10 +159,21 @@ img {
     margin-left: var(--margin-bottom-1-5);
     margin-right: var(--margin-bottom-1-5);
   }
+
+  .button {
+    padding: 1rem 1.75rem;
+  }
+
+  .button-icon{
+    width: 22px;
+    height: 22px;
+  }
 }
 
 @media screen and (max-width: 768px){
-
+  .section {
+    padding: 2rem 0 4rem;
+  }
 }
 
 @media screen and (max-width: 576px){
@@ -170,6 +181,9 @@ img {
 }
 
 @media screen and (max-width: 350px){
+  :root {
+    --large-font-size: 2.25rem;
+  }
   .container{
     margin-left: var(--margin-bottom-1);
     margin-right: var(--margin-bottom-1);
