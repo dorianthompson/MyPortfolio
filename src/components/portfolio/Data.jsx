@@ -8,9 +8,9 @@ import TicTacToe from '../../assets/Projects/TicTacToe.png';
 export const projectsData = [
     {
         id: 1,
-        image: CrwnClothing,
-        title: 'CrwnClothing',
-        category: 'fullstack'
+        image: PorfolioWebsite,
+        title: 'Portfolio Website',
+        category: 'frontend'
     },
     {
         id: 2,
@@ -20,9 +20,9 @@ export const projectsData = [
     },
     {
         id: 3,
-        image: PorfolioWebsite,
-        title: 'Portfolio',
-        category: 'frontend'
+        image: CrwnClothing,
+        title: 'CrwnClothing',
+        category: 'fullstack'
     },
     {
         id: 4,
@@ -49,12 +49,12 @@ export const projectsNavigation = [
         name: 'all'
     },
     {
-        name: 'fullstack'
-    },
-    {
         name: 'frontend'
     },
     {
         name: 'backend'
+    },
+    {
+        name: 'fullstack'
     }
 ];
