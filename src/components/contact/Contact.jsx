@@ -18,7 +18,7 @@ const Contact = () => {
                         <h3 className="contact-card-title">Phone</h3>
                         <span className="contact-card-data">302-339-9665</span>
 
-                        <a href="tel:+3023399665" className="contact-button">
+                        <a href="tel:+13023399665" target="_blank" className="contact-button">
                             Call me{" "}
                             <i className="bx bx-right-arrow-alt contact-button-icon"></i>
                         </a>
@@ -29,7 +29,7 @@ const Contact = () => {
                         <h3 className="contact-card-title">Email</h3>
                         <span className="contact-card-data">thompsondorian2@gmail.com</span>
 
-                        <a href="mailto:thompsondorian2@gmail.com" className="contact-button">
+                        <a href="mailto:thompsondorian2@gmail.com" target="_blank" className="contact-button">
                             Email me{" "}
                             <i className="bx bx-right-arrow-alt contact-button-icon"></i>
                         </a>
@@ -41,7 +41,7 @@ const Contact = () => {
                         <h3 className="contact-card-title">Calendly</h3>
                         <span className="contact-card-data">calendly.com/dorianthompson</span>
 
-                        <a href="https://calendly.com/dorianthompson" className="contact-button">
+                        <a href="https://calendly.com/dorianthompson" target="_blank" className="contact-button">
                             Schedule a Meet {" "}
                             <i className="bx bx-right-arrow-alt contact-button-icon"></i>
                         </a>
