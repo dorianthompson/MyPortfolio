@@ -1,0 +1,29 @@
+.footer {
+    background-color: var(--container-color);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer-container {
+    padding: 2rem 0 2rem;
+}
+
+.footer-title, .footer-link {
+    color: var(--title-color);
+}
+
+.footer-title {
+    text-align: center;
+    margin-bottom: var(--margin-bottom-2);
+}
+
+.footer-link {
+    color: var(--title-color-dark);
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.5rem;
+    margin-bottom: var(--margin-bottom-2);
+}
+
