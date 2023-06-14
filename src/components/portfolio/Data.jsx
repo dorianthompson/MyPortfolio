@@ -10,37 +10,43 @@ export const projectsData = [
         id: 1,
         image: PorfolioWebsite,
         title: 'Portfolio Website',
-        category: 'frontend'
+        category: 'frontend',
+        link: "#"
     },
     {
         id: 2,
-        image: NASAMissionControl,
-        title: 'NASAMissionControl',
-        category: 'backend'
+        image: CrwnClothing,
+        title: 'CrwnClothing',
+        category: 'fullstack',
+        link: "https://chipper-llama-057977.netlify.app/"
     },
     {
         id: 3,
-        image: CrwnClothing,
-        title: 'CrwnClothing',
-        category: 'fullstack'
+        image: NASAMissionControl,
+        title: 'NASAMissionControl',
+        category: 'backend',
+        link: ""
     },
     {
         id: 4,
         image: Natours,
         title: 'Natours Landing Page',
-        category: 'frontend'
+        category: 'frontend',
+        link: "https://natours-sigma-ten.vercel.app/"
     },
     {
         id: 5,
         image: TicTacToe,
         title: 'TicTacToe',
-        category: 'frontend'
+        category: 'frontend',
+        link: "https://tic-tac-f3gz4l2s1-dorianthompson.vercel.app/"
     },
     {
         id: 6,
         image: StopWatch,
         title: 'Stopwatch',
-        category: 'frontend'
+        category: 'frontend',
+        link: "https://stopwatch-delta-ecru.vercel.app/"
     }
 ];
 

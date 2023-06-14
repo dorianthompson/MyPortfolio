@@ -5,11 +5,11 @@
 
   --hue: 0;
   --saturation: 0%;
-  --title-color: hsl(var(--hue), var(--saturation), 20%);
-  --title-color-dark: hsl(var(--hue), var(--saturation), 0%);
+  --title-color: #c21707;
+  --title-color-dark: hsl(var(--hue), var(--saturation), 40%);
   --text-color: hsl(var(--hue), var(--saturation), 46%);
-  --body-color: hsl(var(--hue), var(--saturation), 98%);
-  --container-color: #fff;
+  --body-color: hsl(var(--hue), var(--saturation), 10%);
+  --container-color: rgba(255, 255, 255, 0.761);
 
   --main-font: 'Poppins', sans-serif;
 
