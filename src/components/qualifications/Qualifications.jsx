@@ -3,7 +3,7 @@ import './qualifications.css';
 
 const Qualifications = () => {
   return (
-    <section className="qualifications section">
+    <section className="qualifications section" id='qualifications'>
         <h2 className="section-title">Qualifications</h2>
         <span className="section-subtitle">My personal Journey into Coding</span>
 
