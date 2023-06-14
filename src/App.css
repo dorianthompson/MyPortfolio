@@ -73,7 +73,7 @@ textarea {
 body {
   background-color: var(--body-color);
   color: var(--text-color);
-  -webkit-text-size-adjust: 100%;
+  -webkit-appearance: none;
 }
 
 h1, h2, h3 {

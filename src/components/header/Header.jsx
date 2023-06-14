@@ -18,7 +18,7 @@ const Header = () => {
   const [activeNav, setActiveNav] = useState("#home");
   return (
     <header className="header">
-        <nav className="nav container">
+        <div className="nav container">
             <a href="index.html" className="nav-logo">Dorian</a>
 
             <div className={Toggle ? "nav-menu show-menu" : "nav-menu"}>
@@ -61,7 +61,7 @@ const Header = () => {
                 }} onClick={() => showMenu(!Toggle)}>
                 <i class="uil uil-apps"></i>
             </div>
-        </nav>
+        </div>
     </header>
   )
 }
